@@ -1,0 +1,39 @@
+/*Create effect for menu in footer*/
+.company {
+	width: 75.5%;
+	margin-top: 60px;
+	display: inline-block;
+	list-style-type: none;
+	background-color: #3a3a3a;
+}
+.company li {
+	width: 24%;
+	float:left;
+	padding: 15px 2% 15px 2%;
+	list-style-type: none;
+	position: relative;
+	border: 2px solid #2f2f2f;
+	border-bottom: 4px solid #2f2f2f;
+	background-color: #656565;
+	margin-right: 3%; 
+}
+.company li a {
+	text-align: left;  
+	font-family: Myriad Pro;
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+}
+.company li a:hover {
+	width: 24%;
+	font-size: 18px;
+	font-family: Myriad Pro;
+	color: #308eb4;
+}
+.contact li a {
+	text-align: center;  
+	font-family: Myriad Pro;
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+}

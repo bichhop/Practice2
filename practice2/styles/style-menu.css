@@ -1,0 +1,63 @@
+/* Create effects when click mouse on menu*/
+nav {
+	width: 53%;
+	margin-top: 30px;
+	float: left;
+	margin-left: 4%;
+	text-align: center;
+	display: inline-block;
+}
+nav li {
+	float:left;
+	padding: 18px 2.3% 18px 2.3%;
+	list-style-type: none;
+	position: relative;
+}
+nav li a {
+	text-align: left;  
+	display: block;
+	position: relative;
+	font-family: Open Sans;
+	font-size: 14px;
+	text-decoration: none;
+	color: #6a6867;
+}
+nav li a:hover {
+	font-size: 14px;
+	font-family: Open Sans;
+	color: #308eb4;
+}
+
+/*Create box of menu*/
+.speech-bubble:hover {
+    position: relative;		
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    border: 4px solid #4ec7ab;
+
+}
+.speech-bubble:hover:after, .speech-bubble:hover:before {
+	width: 0;
+	height: 0;
+	bottom: 100%;
+	top: 100%;
+	left: 50%;
+	content: '';
+	position: absolute;
+}
+
+.speech-bubble:hover:after {
+	margin-left: -10px;
+	border: 10px solid transparent;
+	border-top-color: #4ec7ab;
+		
+}
+.speech-bubble:hover:before {	
+  	margin-left: -7px;	
+  	z-index: 1;		 		
+	border: 6px solid transparent;
+	border-left:6px solid transparent;
+  	border-right:6px solid transparent;
+  	border-top-color: #FFF;	
+}/*END menu*/

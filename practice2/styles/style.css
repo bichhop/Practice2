@@ -1,0 +1,287 @@
+/*add font into web*/
+@font-face {
+	font-family: duepuntozero;
+	src: url("../fonts/MontserratAlternates-Bold.ttf") format("truetype");
+	font-family: 'duepuntozero bold';
+	src: url("../fonts/MontserratAlternates-Regular.ttf") format("truetype");
+
+}
+
+body {
+	background-color: #bfbfbf;
+}
+
+.blocks-text-three a{
+	font-size: 13px;
+	list-style-type: none;
+	position: relative;
+	text-decoration: none;
+	color: #54add7;
+}
+.blocks-text-three:hover{
+	font-size: 15px;
+	list-style-type: none;
+	position: relative;
+	text-decoration: none;
+	color: #000;
+}
+/*contain all layers in website*/
+.container {
+	width: 90%;
+	margin: 0 auto 0 auto;
+	background-position: center;
+	background-color: blue;
+}
+/*header is the first part of website, it contain logo and menu/*/
+header {
+	width: 100%;
+	height: 100px;
+	float: left;
+	background-color: #fff;
+}
+.header-center, .slider-center, .blocks-center, .weAre-center, .ourCompany-center, .logo-center, .footer-center {
+	width: 66%;
+	height: 100%;
+	margin: 0 auto 0 auto;
+	background-position: center;
+	float: left;
+	margin-left: 17%;
+}
+h1 {
+	font-family: Montserrat Alternates;
+	font-size: 36px;
+	color: #54add7;
+	float: left;
+	margin-left: 0px;
+	margin-top: 36px;
+}
+
+/*input to search*/
+.search {
+	width: 24%;
+	height: 40px;
+	float: left;
+	margin: 32px auto auto auto;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+}
+input.search {
+	background: url("../images/search.png") no-repeat;
+	background-position: 280px 14px;
+}
+/*END search*/
+/*END header*/
+
+/*Start create a slider layer*/
+.slider {
+	width: 100%;
+	height: 300px;
+	float: left;
+	border-top: 2px solid #4591b5;
+	background-color: #50a9d4; 
+}
+.title {
+	padding-top: 204px;
+	font-size: 66px;
+	font-family: Myriad Pro;
+	float: left;
+	display: inline;
+	color: #91c3d7;
+}
+.picture-home {
+	float: right;
+	padding-left: 0px;
+}/*END slider*/
+
+/*Start a block layer, where contain small layers*/
+.blocks {
+	width: 100%;
+	height: 460px;
+	float: left;
+	border-top: 2px solid #e2e2e2;
+	background-color: #eeeeee; 
+}
+.lorem, .dolor, .nullam {
+	width: 23.4%;
+	height: 351px;
+	margin-top: 48px;
+	margin-right: 1.8%;
+	float: left;
+	border: 1px solid #d6d6d6;
+	border-bottom: 3px solid #d6d6d6;
+	background-color: #fff;
+}
+.vestibullum {
+	width: 23.4%;
+	height: 351px;
+	margin-top: 48px;
+	float: left;
+	border: 1px solid #d6d6d6;
+	border-bottom: 3px solid #d6d6d6;
+	background-color: #fff;
+}
+.lorem-title, .dolor-title, .nullam-title, .vestibullum-title {
+	width: 100%;
+	height: 58px;
+	float: left;
+	margin-top: 0px;
+	border-bottom: 3px solid #4793b7;
+	background-color: #54add7;
+}
+p.blocks-text-one {
+	font-size: 22px;
+	font-family: Open Sans;
+	text-align: center;
+	padding-top: 19px;
+    text-transform: uppercase;
+	color: #fff;
+}
+/*.lorem-image, .dolor-image, .nullam-image, .vestibullum-image {
+	width: 110px;
+	height: 110px;
+	margin: 86px auto auto auto;
+	background-position: center;
+	border-radius: 100px;
+	border: 12px solid #c9c9c9;
+}*/
+.blocks-text-two {
+	font-size: 13px;
+	font-family: Myriad Pro;
+	text-align: center;
+	margin: 16px 2px auto 2px;
+	background-position: center;
+	color: #c9c9c9;
+}
+.blocks-text-three {
+	font-family: Myriad Pro;
+	text-align: center;
+	margin: 30px auto auto auto;
+	background-position: center;
+}/*END blocks layer*/
+
+
+/*Create a weAre layer, where contain small layers*/
+.weAre {
+	width: 100%;
+	height: 323px;
+	float: left;
+	border-top: 2px solid #5ea6ca;
+	background-color: #6ec3ed;
+}
+article {
+	font-size: 36px;
+	font-family: Myriad Pro;
+	margin: 0 auto auto auto;
+	padding-top: 44px;
+	text-align: center;
+	background-position: center;
+	color: #fff;
+}
+ul.list {
+
+    list-style-type: none;
+}
+.Best-Hardware-around-the-world, .Free-uodates-every-month {
+	width: 48%;
+	font-size: 18px;
+	font-family:  Open Sans;
+	padding-left:  1%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: auto;
+	margin-top: 38px;
+	float: left;
+	border: 1px solid #60aace;
+	border-bottom: 3px solid #60aace;
+	color: #9b9b9b;
+	background-color: #fff;
+}
+.Free-uodates-every-month {
+	margin-left: 1.5%;
+}/*END weAre layer*/
+
+/*Start ourCompany layer*/
+.ourCompany {
+	width: 100%;
+	height: 122px;
+	background-color: #255e7a;
+}
+.ourCompany-text {
+	font-size: 36px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: Myriad Pro;
+	background-color: #255e7a;
+	color: #fff;
+}
+
+/*Start logo layer contain images of logos*/
+.logo {
+	width: 100%;
+	height: 292%;
+	float: left;
+	background-color: #fff;
+}/*END logo*/
+
+footer {
+	width: 100%;
+	height: 250px;
+	float: left;
+	background-color: #3a3a3a;
+}
+.company, .ourServices, .contact {
+	width: 24.2%;
+	height: 184px;
+	float: left;
+	margin-top: 60px;
+	margin-right: 3%;
+}
+.company-title, .ourServices-title, .contact-title {
+	width: 95%;
+	float:left;
+	padding: 15px 2% 15px 2%;
+	border: 2px solid #2f2f2f;
+	border-bottom: 4px solid #2f2f2f;
+	background-color: #656565;
+}
+.contact-title {
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	text-decoration: none;
+	color: #fff354;
+}
+
+.about, .loremIpsum, .phone {
+	width: 90%;
+	float: left;
+	font-size: 14px;
+	font-family: Myriad Pro;
+	color: #8e8e8e;
+	padding-top: 23px;
+	padding-left: 4%;
+}
+.phone {
+	text-align: center;
+}
+.list a {
+	font-size: 14px;
+	font-family: Myriad Pro;
+	text-decoration: underline;
+	color: #8e8e8e;
+}
+.logoCompany {
+	width: 12%;
+	height: 170px;
+	margin: 60px auto auto 6%;
+	float: left;
+	text-align: center;
+}
+.logoPicture {
+	float: left;
+
+}
