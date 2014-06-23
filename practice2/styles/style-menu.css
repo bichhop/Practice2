@@ -1,20 +1,20 @@
 /* Create effects when click mouse on menu*/
 nav {
-	width: 53%;
-	margin-top: 30px;
+	width: 589px;
+	margin: 30px auto 23px 36px;
 	float: left;
-	margin-left: 4%;
 	text-align: center;
 	display: inline-block;
 }
 nav li {
 	float:left;
-	padding: 18px 2.3% 18px 2.3%;
+	padding: 14px 18px 13px 20px;
 	list-style-type: none;
 	position: relative;
+	border: 2px solid transparent;
 }
 nav li a {
-	text-align: left;  
+	text-align: right;  
 	display: block;
 	position: relative;
 	font-family: Open Sans;
@@ -29,12 +29,12 @@ nav li a:hover {
 }
 
 /*Create box of menu*/
-.speech-bubble:hover {
+.speech-bubble:hover {/*create a rectangular boder*/
     position: relative;		
     border-radius: 5px;
     color: white;
     text-align: center;
-    border: 4px solid #4ec7ab;
+    border: 2px solid #54add7;
 
 }
 .speech-bubble:hover:after, .speech-bubble:hover:before {
@@ -47,13 +47,13 @@ nav li a:hover {
 	position: absolute;
 }
 
-.speech-bubble:hover:after {
+.speech-bubble:hover:after {/*Create a triangular under rectangular border*/
 	margin-left: -10px;
 	border: 10px solid transparent;
-	border-top-color: #4ec7ab;
+	border-top-color: #54add7;
 		
 }
-.speech-bubble:hover:before {	
+.speech-bubble:hover:before {/*Create a triangular have white color, small than blue triangular and pile blue triangular*/
   	margin-left: -7px;	
   	z-index: 1;		 		
 	border: 6px solid transparent;

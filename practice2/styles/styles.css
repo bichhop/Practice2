@@ -1,0 +1,80 @@
+@font-face {
+	font-family: duepuntozero;
+	src: url("../fonts/MontserratAlternates-Bold.ttf") format("truetype");
+	font-family: 'duepuntozero bold';
+	src: url("../fonts/MontserratAlternates-Regular.ttf") format("truetype");
+}
+
+body {
+	width: 100%;
+	background-color: #bfbfbf;
+}
+
+/*Start a block layer, where contain small layers*/
+.blocks {
+	width: 1600px;
+	float: left;
+	border-top: 4px solid #e2e2e2;
+	background-color: #eeeeee; 
+}
+
+
+.lorem {
+	width: 265px;
+	height: 356px;
+	margin-top: 48px;
+	margin-right: 0px;
+	background-color: #fff;
+}
+.lorem-title {
+	width: 263px;
+	height: 56px;
+	float: left;
+	margin-top: 0px;
+	border: 1px solid #4793b7;
+	border-bottom: 3px solid #4793b7;
+	background-color: #54add7;
+}
+.lorem-content {
+	width: 263px;
+	height: 300px;
+	float: left;
+	background-position: center;
+	border-right: 1px solid #cecece;
+	border-bottom: 3px solid #cecece;
+	border-left: 1px solid #cecece;
+}
+.lorem-animation {
+	width: 125.3px;
+	height: 120px;
+	float: left;
+	margin-left: 72.5px;
+	margin-top: 29px;
+	background-position: center;
+	background-color: #34dsf3;
+}
+.blocks-text-one {
+	font-size: 22px;
+	font-family: Open Sans;
+	text-align: center;
+	padding-top: 19px;
+    text-transform: uppercase;
+	color: #fff;
+}
+.blocks-text-two {
+	font-size: 13px;
+	font-family: Myriad Pro;
+	text-align: center;
+	float: left;
+	margin-top: 29px;
+	margin-right: 34px;
+	margin-left: 20px;
+	color: #c9c9c9;
+}
+.blocks-text-three {
+	font-family: Myriad Pro;
+	float: left;
+	margin-top: 
+	margin-left: 102px;
+}/*END blocks layer*/
+

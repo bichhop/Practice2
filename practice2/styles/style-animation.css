@@ -4,12 +4,11 @@
 }
  
 .hover-circle, .hover-circle img {
-    width: 122px;
-    height: 122px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
 }
 
- 
 .info h3 {
     font-family: "Arimo", "Cambria", "Georgia", serif;
     font-size: 20px;
@@ -29,7 +28,7 @@
     letter-spacing: 0px;
 }
 
-/*hieu ung 2*/
+/*hieu ung */
 .effect2 .overlay {
     background-color: rgba(120, 55, 18, 0.102);
     border-radius: 50%;
@@ -63,7 +62,7 @@
  .lorem-image {
 	width: 50px;
 	height: 50px;
-	margin: 87px auto 0 auto;
+	margin: 29px auto 0 auto;
 	background-position: center;
 	border-radius: 100px;
 	border: 12px solid #c9c9c9;
